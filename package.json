@@ -4,7 +4,7 @@
   "description": "",
   "default": "index.html",
   "scripts": {
-    "sass": "sass scss:css -w",
+    "sass": "sass scss:styles -w",
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
   },
