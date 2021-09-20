@@ -1,0 +1,497 @@
+// reusable selectors button logo imgs
+@use 'base' as *;
+
+
+
+.logo img{
+    display: block;
+    @include flexCenter;
+    transform: translate(-30%,-50%);
+    margin-left: 50%;
+    margin-top: 25%;
+    width: 80%;
+    height: auto;
+    opacity: .7;
+    
+      @media (max-width: 500px) {
+        width: 90%;
+        transform: translate(-58%,-50%);
+        margin-top: 20%;
+
+      }
+
+
+
+      @media (min-width:501px) and (max-width: 800px) {
+          width: 100%;
+          transform: translate(-50%,-50%);
+          margin-top: 20%;
+  
+  
+      }
+    
+
+}
+
+.heading-text h1{
+    padding-bottom: 3rem;
+    padding-left: 18%;
+    display: block;
+    margin-top: -50%;
+    font-family: $font-georgia;
+    font-size: 40px;
+    color: $color-primary;
+
+    @media (max-width: 500px) {
+
+      margin-top: -10%;
+      font-size: 20px;
+      padding-left: 22%;
+
+    }
+
+
+    @media (min-width:501px) and (max-width: 800px) {
+      margin-top: -20%;
+      font-size: 20px;
+      padding-left: 30%;
+
+
+  }
+  }
+
+
+
+
+
+
+
+
+
+.heading-btn {
+
+    width: 170px;
+    border:$color-primary solid 1px;
+    background-color: $color-secondary;
+    color: $color-primary;
+    margin-left: 18%;
+    font-size: 1.2rem;
+    padding: 8px;
+
+    &:hover{
+      background-color: $color-primary;
+      color: $color-secondary;
+      letter-spacing: 2px;
+    }
+
+    @media (max-width: 500px) {
+
+      margin-left: 35%;
+
+
+    }
+
+    @media (min-width:501px) and (max-width: 800px) {
+      margin-left: 40%;
+
+    }
+  }
+  
+  .heading-container > a:hover {
+    border: 1px solid $color-primary;
+    font-weight: 600;
+    text-shadow: 0 0 10px $color-primary, 0 0 40px $color-primary;
+    box-shadow: 0 0 3px $color-primary, 0 0 3px $color-primary;
+  }
+
+
+.box img{
+      width: 33%;
+      height: auto;
+      float: right;
+      border: 3px solid $color-primary;
+      border-radius: 70% 0px 0px 70%;
+      position: relative;
+
+      @media (max-width: 500px) {
+        width: 30%;
+        border: 1px solid $color-primary;
+
+      }
+
+      @media (min-width:501px) and  (max-width: 800px) {
+        border: 1px solid $color-primary;
+        width: 30%;
+        height: auto;
+
+      }
+
+
+
+  }
+
+  .machine{
+
+    .our-machine-subtitle{
+
+
+      h3{
+        font-size: 130px;
+        font-family: $font-georgia;
+        color:$color-primary;
+        letter-spacing: 50px;
+        position: absolute;
+        margin-top: 20%;
+        margin-left:5% ;
+        z-index: 1;
+  
+        @media (max-width: 500px) {
+          font-size: 30px;
+          letter-spacing: 12px;
+
+        }
+  
+        @media (min-width:501px) and (max-width: 800px) {
+          font-size: 35px;
+          letter-spacing: 15px;
+    
+        }
+
+      
+      }
+    }
+  }
+
+
+.our-machine-subtitle p{
+      position: absolute;
+      font-family: $font-verdana;
+      color: $color-primary;
+      font-size: 30px;
+      margin-top: 30%;
+      margin-left: 25%;
+      z-index: 1;
+
+      @media (max-width: 500px) {
+        font-size: 10px;
+        margin-top: 30%;
+        margin-left: 20%;
+
+      }
+
+      
+      @media (min-width:501px) and (max-width: 800px) {
+        font-size: 20px;
+        margin-top: 30%;
+        margin-left: 10%;
+  
+      }
+
+
+  }
+
+#tds table,#tds tr,#tds td{
+      color: $color-primary;
+      font-family: $font-georgia;
+      font-style: italic;
+      font-size: 30px;
+      border-bottom:1px dashed $color-primary;
+      letter-spacing: 2px;
+
+      @media (max-width: 800px) {
+        font-size: 18px;
+        
+
+      }
+    
+    }
+
+.container img{
+    display: block;
+    width: 70%;
+    height: auto;
+    border: 3px solid $color-primary;
+    border-radius: 0px 70% 70% 0px;
+
+    @media (max-width: 500px) {
+      width: 120%;
+      border: 1px solid $color-primary;
+
+
+    }
+
+    @media (min-width:501px) and (max-width: 800px) {
+      width: 80%;
+      border: 1px solid $color-primary;
+
+
+    }
+
+  
+}
+
+
+
+.our-menu{
+    margin-right: 20%;
+    
+}
+
+.our-menu h5{
+    font-size: 120px;
+    font-family: $font-georgia;
+    color:$color-primary;
+    letter-spacing: 20px;
+    margin-bottom: 50px;
+
+    @media (max-width: 500px) {
+      font-size: 40px;
+      margin-left: 30%;
+
+
+
+    }
+    @media (min-width:501px) and (max-width: 800px) {
+      font-size: 50px;
+
+
+    }
+
+    
+
+}
+
+#tds{
+
+  @media (max-width: 500px) {
+    margin-left: 30%;
+
+
+
+  }
+
+}
+
+.contact-info-box{
+    display: block;
+
+
+    h5{
+        font-size: 40px;
+        color:$color-primary;
+        font-family: $font-georgia;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding-top: 50px;
+
+        @media (max-width: 500px) {
+          font-size: 20px;
+          
+  
+        }
+
+        @media  (min-width:501px) and (max-width: 800px) {
+          font-size: 30px;
+          
+  
+        }
+    }
+
+}
+
+.input-box, .icon-box{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.input-box{
+    display: inline-block;
+    width: 100px;
+    margin-left: 45%;
+    color: $color-primary;
+    font-size: 20px;
+    margin-top: 20px;
+    @media (max-width: 500px) {
+      margin-left: 35%;
+      
+
+    }
+
+    @media (min-width:501px) and  (max-width: 800px) {
+      margin-left: 40%;
+      
+
+    }
+    
+}
+
+#name, #email{
+    margin: 5px;
+    border:$color-primary solid 1px;
+    background-color:  rgba(0, 0, 0, .3);
+}
+
+#submit{
+    width: 85px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 33%;
+    margin-bottom: 20px;
+    border:$color-primary solid 1px;
+    background-color:  rgba(0, 0, 0, .3);
+    color:$color-primary;
+    cursor: pointer;
+
+    &:hover{
+      background-color: $color-primary;
+      color: $color-secondary;
+      letter-spacing: 2px;
+    }
+    
+}
+
+.icon-box a {
+    color: $color-primary;
+    font-size: 30px;
+    padding: 10px;
+    @media (max-width: 500px) {
+      font-size: 20px;
+
+    }
+
+    @media (max-width: 700px) {
+      font-size: 20px;
+
+    }
+}
+
+.interior-imgs img{
+    width: 33.1111111%;
+    height: 40rem;
+    display: inline-block;
+    border: 1px solid $color-primary;
+    border-radius: 50px 50% 50% 50px;
+    opacity: .8;
+
+    @media (max-width: 500px) {
+      width: 50%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      object-fit: cover;
+      border: 0px;
+      border-radius: 0px;
+      opacity: .8;
+      margin-left: 24.5%;
+      padding: 10px;
+      
+      
+
+    }
+
+
+    @media (min-width:501px) and  (max-width: 800px) {
+      width: 50%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      object-fit: cover;
+      border: 0px;
+      border-radius: 0px;
+      opacity: .8;
+      margin-left: 24.5%;
+      padding: 10px;
+      margin-top: 15%;
+      
+      
+
+    }
+}
+
+.interior-box{
+    display: block;
+    h3{
+        margin-top: 10%;
+        margin-left: 7%;
+        color: $color-primary;
+        font-size: 120px;
+        letter-spacing: 10px;
+
+        @media (max-width: 500px) {
+          font-size: 50px;
+          
+    
+        }
+
+        @media (max-width: 800px) {
+          font-size: 70px;
+          
+    
+        }
+    }
+
+    p{
+        color: $color-white;
+        margin-left: 12%;
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-bottom: 7%;
+        @media (max-width: 500px) {
+          font-size: 15px;
+          
+    
+        }
+    }
+}
+
+h4 {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: $color-primary;
+    @media (max-width: 500px) {
+      padding-top: 1rem;
+      font-size: 20px;
+
+      
+
+    }
+    
+  }
+.footer p{
+    text-align: center;
+    color: $color-primary;
+    @media (max-width: 500px) {
+      font-size: 15px;
+
+      
+
+    }
+}
+  
+  .social-links {
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  
+  .social-links a i {
+    text-align: center;
+    color: $color-primary;
+    font-size: 1.2rem;
+    padding-right: 10px;
+    margin-bottom: 5px;
+
+    @media (max-width: 500px) {
+      font-size: 1rem;
+
+
+      
+
+    }
+  }
+
+
+

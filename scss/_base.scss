@@ -1,0 +1,39 @@
+// variables, mixins, placeholder, root, *, body , html
+
+$color-white: #fffaf3;
+$color-primary: #C99B61;
+$color-secondary: #11353D;
+
+$font-georgia:Georgia, 'Times New Roman', Times, serif;
+
+$font-verdana: Verdana, Geneva, Tahoma, sans-serif;
+
+  @mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      
+  }
+  
+  html, body{
+      background-color:$color-secondary;
+      overflow-x: hidden;
+
+
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+    
+
+  
